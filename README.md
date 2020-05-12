@@ -30,46 +30,78 @@ network trying to come in (external testing) and from inside the network.
 # COURSE OF ACTION:
 1.Motivated, we started to research to gain valuable knowledge w.r.t. Android which included
 ● What is Android?
+
 ● What are the Vulnerabilities associated with it?
+
 ● What are the various attacks possible?
+
 ● How can we attack a vulnerable Android device?
+
 2. We decided to center our project around ​ Penetration Testing ​ on an Android device using
 Kali Linux.
+
 3. We went through an online course ​ “Learn Kali Linux and Hack Android Devices” by
 Mohammed Atef.
+
 4.Throughout the course, we learnt about various tools, namely-
+
 ● Ettercap
+
 ● Netcat
+
 ● Nmap
+
 ● Armitage
+
 ● Metasploit
-● Social Engineering Toolkit (SET)5. We then used the tools to gain access to the Android device using various ways such as-
+
+● Social Engineering Toolkit (SET)
+5. We then used the tools to gain access to the Android device using various ways such as-
 ● Malicious Payload embedded in Application : We installed a malicious app on the
 target device, using which would enables the attacker to gain access to the device and
 perform activities without the consent of the owner-
 ○ Webcam access
+
 ○ Kernel access
+
 ○ Call_log access
+
 ○ Contacts Access
+
 ○ Files access
+
 ○ Download/upload media
+
 ○ Livestream webcam
+
 ● Access through Link: Access to the device by clicking on a certain link also enabled the
 attacker to gain access to the target device and perform the aforesaid attacks.
+
 6. After going through various attacks, we went through the counter measures which could be
 taken to prevent such attacks.
 
 
 # TOOLS USED
+
 ● The Operating System used : Kali Linux
+
 ● Attacks Performed:
+
 ○ Metasploit Attack
+
 ○ Stage fright Attack
+
 ● Applications used:
+
 ○ Armitage
+
 ○ Social Engineering Toolkit
+
 ○ Metasploit (msfconsole)
-■ Meterpreter session5.WHY KALI LINUX?
+
+■ Meterpreter session
+
+# WHY KALI LINUX?
 Kali Linux is rated as the #1 security operating system for penetration testing and Security
 personnels. Kali Linux offers a multitude of options to scan a single IP, port, or host (or a range
 of IPs, ports, and hosts) and discover vulnerabilities and security holes. The output and the
